@@ -1,0 +1,4 @@
+pip uninstall -yr pio.txt #delete all modules without asking
+pip uninstall -r pio.txt #delete all modules with asking
+pip freeze #list all modules installed using pip
+pip freeze > requirements.txt #copy all installed modules in txt file

@@ -1,4 +1,12 @@
-pip uninstall -yr pio.txt #delete all modules without asking
-pip uninstall -r pio.txt #delete all modules with asking
-pip freeze #list all modules installed using pip
-pip freeze > requirements.txt #copy all installed modules in txt file
+#pip uninstall -yr pio.txt #delete all modules without asking
+#pip uninstall -r pio.txt #delete all modules with asking
+#pip freeze #list all modules installed using pip
+#pip freeze > requirements.txt #copy all installed modules in txt file
+#pip install module name
+
+#virtual environment (in admin mode)
+#Pip install virtualenvwrapper-win #virtual environment wrapper
+#pip install virtualenv # helps create virtual environment
+#mkvirtualenv envname # makes use of virtualenvwrapper to create venv in user/profile/envs and can be switched with workon command
+#virtualenv envname #uses virtualenv to create venv in current directory to work on this env you have to execute .\env\Scripts\activate.bat
+#deactivate #to deactivate current virtual env
